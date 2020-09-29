@@ -64,8 +64,8 @@ def solvePuzzle_depth(srcLayout, destLayout):
 
 if __name__ == "__main__":
 	#测试数据输入格式
-    srcLayout  = "541203786"
-    destLayout = "123804765"
+    srcLayout  = "673014582"
+    destLayout = "123456780"
 
     retCode, lst_steps = solvePuzzle_depth(srcLayout, destLayout)
     if retCode != 0:
